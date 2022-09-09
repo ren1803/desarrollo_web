@@ -1,0 +1,68 @@
+ul,
+p strong {
+    background-color: darkblue;
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+.important_list:first-child {
+    background-color: chocolate;
+    color: white
+}
+
+
+/* Comments for css */
+
+.important_list {
+    background-color: red;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.important_list li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: grey;
+    padding: 15px;
+    border-style: dashed; /*border-style: dashed;*/
+    border-width: 2px;
+    margin: 15px;
+}
+
+#list_of_movies2 {
+    background-color: green;
+    color: plum;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    margin: 10px;
+    font-size: x-large;
+    text-decoration: none ;
+}
+
+p::first-letter{
+    font-size: xx-large;
+}
+ 
+p::selection{
+    background-color: transparent;  
+}
+
+td{
+    width: 100px;
+    border-width: 3px;
+    border-style: dotted;
+    border-radius: 13 px;
+}
+
+input{
+    width: 30px;
+    margin: 20px;
+    border-width: 3px;
+    border-style: dotted;
+    border-radius: 13px;
+}
+
+input[type=number] {
+    background-color: greenyellow;
+}
